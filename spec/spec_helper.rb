@@ -1,0 +1,10 @@
+$LOAD_PATH << File.dirname(__FILE__) + '/lib'
+
+require 'rubygems'
+require 'bundler/setup'
+
+require 'from_json' # and any other gems you need
+
+RSpec.configure do |config|
+  # some (optional) config here
+end
